@@ -1,75 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<h1>Coffee (Worldwide) - Data Visualization</h1>
-<p>This is a simple data visualization project in Jupyter Notebook using Python language with various libraries, measurements, and graphs.</p>
+# Coffee (Worldwide) - Data Visualization
 
-<h2>Table of Contents</h2>
-    <ol>
-        <li><a href="#used-libraries">Used Libraries</a></li>
-        <li><a href="#functions">Functions</a></li>
-        <li><a href="#connecting-to-database">Connecting to Database</a></li>
-        <li><a href="#loading-data">Loading Data</a></li>
-        <li><a href="#creating-tables">Creating Tables</a></li>
-        <li><a href="#analysis">Analysis</a></li>
-        <li><a href="#contribute">Contributing to the Dataset</a></li>
-    </ol>
+This is a simple data visualization project in Jupyter Notebook using Python language with various libraries, measurements, and graphs.
 
-<h3 id="used-libraries">1. Used Libraries</h3>
-    <ul>
-        <li>csv</li>
-        <li>sqlite3</li>
-        <li>matplotlib</li>
-        <li>pandas</li>
-        <li>numpy</li>
-    </ul>
+## Table of Contents
+1. [Used Libraries](#used-libraries)
+2. [Functions](#functions)
+3. [Connecting to Database](#connecting-to-database)
+4. [Loading Data](#loading-data)
+5. [Creating Tables](#creating-tables)
+6. [Analysis](#analysis)
+7. [Contributing to the Dataset](#contribute)
 
-<h3 id="functions">2. Functions</h3>
-    <ul>
-        <li><strong>createTable:</strong> Creates database tables.</li>
-        <li><strong>queryToList:</strong> Converts database queries to lists.</li>
-    </ul>
+### 1. Used Libraries
+- csv
+- sqlite3
+- matplotlib
+- pandas
+- numpy
 
-<h3 id="connecting-to-database">3. Connecting to Database</h3>
-    <p>Establishes a connection to the "coffee.db" SQLite database.</p>
+### 2. Functions
+- **createTable:** Creates database tables.
+- **queryToList:** Converts database queries to lists.
 
-<h3 id="loading-data">4. Loading Data</h3>
-    <p>Loads data from CSV files into corresponding database tables.</p>
+### 3. Connecting to Database
+Establishes a connection to the "coffee.db" SQLite database.
 
-<h3 id="creating-tables">5. Creating Tables</h3>
-    <p>Defines table structure and inserts data into tables.</p>
+### 4. Loading Data
+Loads data from CSV files into corresponding database tables.
 
-<h3 id="analysis">6. Analysis</h3>
-    <h4>Analysis Goals</h4>
-    <ol>
-        <li>Total summary</li>
-        <li>Summary of average values over the years</li>
-        <li>Summary of chosen country</li>
-        <li>Summary of chosen year</li>
-    </ol>
+### 5. Creating Tables
+Defines table structure and inserts data into tables.
 
-<p>Used measurements:</p>
-    <ul>
-        <li>Number of records (count)</li> 
-        <li>Mean value (mean)</li>
-        <li><a href="https://en.wikipedia.org/wiki/Standard_deviation">Standard deviation (std)</a></li>
-        <li>Minimum (min) and maximum (max) value</li>
-        <li><a href="https://en.wikipedia.org/wiki/Quartile">First (25%), second (50%), and third (75%) quartile</a></li>
-    </ul>
+### 6. Analysis
+#### Analysis Goals
+1. Total summary
+2. Summary of average values over the years
+3. Summary of chosen country
+4. Summary of chosen year
 
-<p>Used graphs:</p>
-    <ul>
-        <li>Linear</li>
-        <li>Column (Horizontal)</li>
-    </ul>
+Used measurements:
+- Number of records (count)
+- Mean value (mean)
+- [Standard deviation (std)](https://en.wikipedia.org/wiki/Standard_deviation)
+- Minimum (min) and maximum (max) value
+- [First (25%), second (50%), and third (75%) quartile](https://en.wikipedia.org/wiki/Quartile)
 
-<h3 id="contribute">7. Contributing to the Dataset</h3>
-    <p>If you would like to contribute to this dataset, please visit the <a href="https://www.kaggle.com/datasets/yamaerenay/ico-coffee-dataset-worldwide">contribution page</a> for detailed instructions on how to contribute.</p>
-    
-<p>This HTML page provides an overview of the project's structure and key functionalities. For detailed code and analysis, please refer to the Jupyter Notebook.</p>
-</body>
-</html>
+Used graphs:
+- Linear
+- Column (Horizontal)
+
+### 7. Contributing to the Dataset
+If you would like to contribute to this dataset, please visit the [contribution page](https://www.kaggle.com/datasets/yamaerenay/ico-coffee-dataset-worldwide) for detailed instructions on how to contribute.
+
+This page provides an overview of the project's structure and key functionalities. For detailed code and analysis, please refer to the Jupyter Notebook.
