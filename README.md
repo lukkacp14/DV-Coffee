@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>Coffee (Worldwide) - Data Visualization</h1>
-
+<p>This is a simple data visualization project in Python using various libraries, measurements, and graphs.</p>
+    
 <h2>Table of Contents</h2>
     <ol>
         <li><a href="#used-libraries">Used Libraries</a></li>
