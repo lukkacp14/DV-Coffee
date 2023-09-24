@@ -44,12 +44,30 @@
     <p>Defines table structure and inserts data into tables.</p>
 
 <h3 id="analysis">6. Analysis</h3>
-    <ul>
-        <li>Total summary</li>
-        <li>Average values over the years</li>
-        <li>Summary of a chosen country</li>
-        <li>Summary of a chosen year</li>
-    </ul>
+
+<h4>Analysis Goals</h4>
+<ol>
+    <li>Total summary</li>
+    <li>Summary of average values over the years</li>
+    <li>Summary of chosen country</li>
+    <li>Summary of chosen year</li>
+</ol>
+
+<p>Used measurements:</p>
+<ul>
+    <li>Number of records (count)</li> 
+    <li>Mean value (mean)</li>
+    <li><a href="https://en.wikipedia.org/wiki/Standard_deviation">Standard deviation (std)</a></li>
+    <li>Minimum (min) and maximum (max) value</li>
+    <li><a href="https://en.wikipedia.org/wiki/Quartile">First (25%), second (50%), and third (75%) quartile</a></li>
+</ul>
+
+<p>Used graphs:</p>
+<ul>
+    <li>Linear</li>
+    <li>Column (Horizontal)</li>
+</ul>
+
 
 <h3 id="contribute">7. Contributing to the Dataset</h3>
     <p>If you would like to contribute to this dataset, please visit the <a href="https://www.kaggle.com/datasets/yamaerenay/ico-coffee-dataset-worldwide">contribution page</a> for detailed instructions on how to contribute.</p>
